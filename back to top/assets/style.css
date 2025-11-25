@@ -1,0 +1,29 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    line-height: 140%;
+    font-size: 18px;
+
+    /* à supprimer*/
+    height: 3000px;
+}
+
+.BackToTop{
+    /*position: absolute;*/ 
+    /*retire l'élément du flux donc n'influence pas les autres éléments*/
+
+    position: fixed;
+    /*pareil pour fixe, enlève l'élément du flux*/
+    right: 0;
+    bottom: 0;
+    display: none;
+    
+}
+
+.BackToTop--show{
+    display:inline;
+}
