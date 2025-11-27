@@ -1,0 +1,19 @@
+body{
+   margin: 0;
+}
+.scrollbar{
+   position: fixed;
+   width: 100%;
+   height: 15px;
+   background-color: #000
+}
+.scrollbar__progress{
+   height: 100%;
+   width: var(--scrollbar-width, 0%);
+   background-color: greenyellow;
+}
+.page{
+   min-height: 500vh;
+   background-color: #ffffff;
+}
+
