@@ -1,0 +1,12 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    line-height: 140%;
+    font-size: 18px;
+}
+.slider__el{
+    display: none;
+}
+.slider__el--show{
+    display: block;
+}
