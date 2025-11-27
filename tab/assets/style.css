@@ -1,0 +1,29 @@
+body{
+    font-family: sans-serif;
+    margin: 20px;
+    line-height: 140%;
+    font-size: 18px;
+}
+.tab__nav {
+   display: flex;
+   gap: 10px;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+.tab__el {
+   padding: 10px;
+}
+
+.tab__content {
+   display: none;
+}
+.tab__content--active{
+   display: block;
+}
+.tab__el--active{
+   background-color: white;
+   color: blue;
+   border: blue solid 3px;
+}
+
