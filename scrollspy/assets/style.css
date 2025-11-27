@@ -1,0 +1,31 @@
+html{
+   scroll-behavior: smooth;
+}
+body{
+   margin: 0;
+   font-family: sans-serif;
+   line-height: 1.4;
+}
+.container{
+   width: 80%;
+   margin: 0 auto;
+}
+.section{
+   height: 600px; /* Ne pas oublier, sert uniquement à l'exemple*/
+   margin: 50px 0;
+}
+.menu{
+   position: fixed;
+   left: 10px;
+   top: 10px;
+   /*scroll-target-group: auto;*/ /* Ne fonctionne pas dans tous les navigateurs */
+}
+
+.menu__el--active a{
+    color: red;
+}
+
+/*.menu__el a:target-current{
+    color: red;  
+}*//* Ne fonctionne pas dans tous les navigateurs */
+/*[] les crochets serves à selectionner les attributs en css (comme le href des a)*/
